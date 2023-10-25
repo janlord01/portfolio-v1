@@ -32,18 +32,19 @@ interface RootLayoutProps {
 export default function RootLayout({ children }: RootLayoutProps) {
   return (
     <>
-      <html lang="en" suppressHydrationWarning>
+      <html lang="en" suppressHydrationWarning className="scroll-smooth">
         <head />
         <body
+          suppressHydrationWarning={true}
           className={cn(
-            "min-h-screen bg-background font-sans antialiased",
+            "bg-slate-100 dark:bg-slate-950 min-h-screen font-sans antialiased min-w-screen w-full m-auto",
             fontSans.variable
           )}
         >
           <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
-            <div className="relative flex min-h-screen flex-col">
+            <div className="relative flex min-h-screen flex-col ">
               <SiteHeader />
-              <div className="flex-1">{children}</div>
+              <div className="flex-1 w-full ">{children}</div>
             </div>
             <TailwindIndicator />
           </ThemeProvider>
