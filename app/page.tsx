@@ -52,7 +52,7 @@ export default function IndexPage() {
                 rel="noreferrer"
                 className={buttonVariants()}
               >
-                Hire me!
+                Hire me
               </Link>
               {/* <Link
               target="_blank"
