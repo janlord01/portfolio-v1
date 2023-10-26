@@ -36,14 +36,14 @@ export default function IndexPage() {
               Hey there, I&#39;m Janlord!
             </h1>
             <p className="sm:hidden md:flex hidden max-w-[700px] text-lg text-muted-foreground">
-              I&#39;m a fullstack developer from the Philippines. <br /> I&#39;m
-              also owned a small manufacturing business <br />
-              providing cosmetics for both men and women.
+              I&#39;m a fullstack developer from the Philippines. I also own a
+              small manufacturing business providing cosmetics for both men and
+              women.
             </p>
             <p className="sm:flex md:hidden flex max-w-[700px] text-lg text-muted-foreground">
-              I&#39;m a fullstack developer from the Philippines. I&#39;m also
-              owned a small manufacturing business providing cosmetics for both
-              men and women.
+              I&#39;m a fullstack developer from the Philippines. I also own a
+              small manufacturing business <br />
+              providing cosmetics for both men and women.
             </p>
             <div className="flex gap-4 mt-5">
               <Link

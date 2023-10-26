@@ -15,7 +15,7 @@ export default function Experience() {
         <div className="grid grid-cols-1 md:grid-cols-2 sm:grid-cols-1 max-w-[980px] m-auto py-10 border-b">
           <div className="hidden sm:hidden md:flex flex-col max-w-[980px] md:m-auto items-start gap-2">
             <h2 className="font-extrabold leading-tight tracking-tighter md:text-3xl">
-              2021 - Present
+              2021 - Present (Part-Time)
             </h2>
           </div>
           <div className="flex max-w-[980px] flex-col items-start gap-2">
@@ -25,9 +25,9 @@ export default function Experience() {
               </h2>
               <p className="flex sm:flex md:hidden text-xl">2021 - Present</p>
               <p className="flex max-w-[340px] text-lg text-muted-foreground mb-3">
-                Nehemiah create and develop Dynamic Websites, Automation
-                Systems, and Consultation for Businesses and Leading Global
-                Brands.
+                Nehemiah creates and develops dynamic websites, automation
+                systems, and does consultation for businesses and leading global
+                brands.
               </p>
               <Badge className="mr-1 bg-gray-700 dark:bg-gray-200 text-white dark:text-gray-700">
                 Quasar
@@ -76,11 +76,13 @@ export default function Experience() {
               </h2>
               <p className="flex sm:flex md:hidden text-xl">2018 - Present</p>
               <p className="flex max-w-[340px] text-lg text-muted-foreground mb-3">
-                Here I stopped working as web developer and start own cosmetic
-                business. My business focus on mens grooming like hair/beard
-                growers, hair pomades, beard shampoo, beard oil, tattoo
-                aftercare, perfumes and many other. I also build an ecommerce
-                website to sell my products.
+                In 2018, I stopped working as a programmer and started my own
+                business called Groom & Brew MFG. My business focuses on
+                creating men’s grooming like hair/beard growers, hair pomades,
+                beard shampoo, beard oil, tattoo aftercare, perfumes and many
+                other more. I’m also building an e-commerce website to sell my
+                products aside from the well-known platforms like Facebook,
+                shopee and Lazada.
               </p>
               <Badge className="mr-1 bg-gray-700 dark:bg-gray-200 text-white dark:text-gray-700">
                 Wordpress
@@ -96,6 +98,12 @@ export default function Experience() {
               </Badge>
               <Badge className="mr-1 bg-gray-700 dark:bg-gray-200 text-white dark:text-gray-700">
                 E-Commerce
+              </Badge>
+              <Badge className="mr-1 bg-gray-700 dark:bg-gray-200 text-white dark:text-gray-700">
+                Shopee
+              </Badge>
+              <Badge className="mr-1 bg-gray-700 dark:bg-gray-200 text-white dark:text-gray-700">
+                Lazada
               </Badge>
             </div>
           </div>
@@ -114,9 +122,10 @@ export default function Experience() {
               </h2>
               <p className="flex sm:flex md:hidden text-xl">2017 - 2018</p>
               <p className="flex max-w-[340px] text-lg text-muted-foreground mb-3">
-                Almac is a SEO company, but my work is creating Amazon-affliated
-                niche websites. These websites are especially created to earn
-                money then sold to website flippers.
+                I worked for a year in Almac which is a SEO company. My job was
+                to create Amazon-affiliated niche websites. These websites are
+                especially created to earn money so it can be sold to empire
+                flippers.
               </p>
               <Badge className="mr-1 bg-gray-700 dark:bg-gray-200 text-white dark:text-gray-700">
                 Wordpress
@@ -150,9 +159,9 @@ export default function Experience() {
               </h2>
               <p className="flex sm:flex md:hidden text-xl">2014 - 2017</p>
               <p className="flex max-w-[340px] text-lg text-muted-foreground mb-3">
-                A company of well-known Australian photographers and coaches. I
-                developed and managed their websites, keeping the websites up to
-                date.
+                Share Inspire Create is a company owned by well-known Australian
+                photographers and coaches. I developed and managed their
+                websites, keeping the websites up to date.
               </p>
               <Badge className="mr-1 bg-gray-700 dark:bg-gray-200 text-white dark:text-gray-700">
                 Wordpress

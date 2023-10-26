@@ -29,11 +29,12 @@ export default function Projects() {
               <h2 className="font-extrabold leading-tight tracking-tighter text-2xl sm:text-3xl md:text-2xl">
                 School Information Management System (Version 2)
               </h2>
-              <p className="flex sm:flex md:hidden text-xl">2021 - Present</p>
+              {/* <p className="flex sm:flex md:hidden text-xl">2021 - Present</p> */}
               <p className="flex max-w-[340px] text-lg text-muted-foreground mb-3">
-                Nehemiah create and develop Dynamic Websites, Automation
-                Systems, and Consultation for Businesses and Leading Global
-                Brands.
+                This is a system I have created for primary, secondary and
+                tertiary schools for them to be able to manage their business
+                well. The system can be used by administrators, teachers,
+                faculty and staff, students and their parents.
               </p>
               <Badge className="mr-1 bg-gray-700 dark:bg-gray-200 text-white dark:text-gray-700">
                 Quasar
@@ -78,30 +79,28 @@ export default function Projects() {
           <div className="flex max-w-[980px] flex-col items-start gap-2">
             <div className="ml-10">
               <h2 className="font-extrabold leading-tight tracking-tighter text-2xl sm:text-3xl md:text-2xl">
-                Employee Dating App
+                Employee Meeting App
               </h2>
-              <p className="flex sm:flex md:hidden text-xl">2018 - Present</p>
+              {/* <p className="flex sm:flex md:hidden text-xl">2018 - Present</p> */}
               <p className="flex max-w-[340px] text-lg text-muted-foreground mb-3">
-                Here I stopped working as web developer and start own cosmetic
-                business. My business focus on mens grooming like hair/beard
-                growers, hair pomades, beard shampoo, beard oil, tattoo
-                aftercare, perfumes and many other. I also build an ecommerce
-                website to sell my products.
+                In 2022, I had a client who requested the making of an Employee
+                Meeting App so they can efficiently communicate with their
+                employees without needing to use other alternatives.
               </p>
               <Badge className="mr-1 bg-gray-700 dark:bg-gray-200 text-white dark:text-gray-700">
-                Wordpress
+                Quasar
+              </Badge>
+              <Badge className="mr-1 bg-gray-700 dark:bg-gray-200 text-white dark:text-gray-700">
+                VueJs
+              </Badge>
+              <Badge className="mr-1 bg-gray-700 dark:bg-gray-200 text-white dark:text-gray-700">
+                Laravel
               </Badge>
               <Badge className="mr-1 bg-gray-700 dark:bg-gray-200 text-white dark:text-gray-700">
                 PHP
               </Badge>
               <Badge className="mr-1 bg-gray-700 dark:bg-gray-200 text-white dark:text-gray-700">
                 Javascript
-              </Badge>
-              <Badge className="mr-1 bg-gray-700 dark:bg-gray-200 text-white dark:text-gray-700">
-                CSS
-              </Badge>
-              <Badge className="mr-1 bg-gray-700 dark:bg-gray-200 text-white dark:text-gray-700">
-                E-Commerce
               </Badge>
             </div>
           </div>
@@ -118,26 +117,28 @@ export default function Projects() {
               <h2 className="font-extrabold leading-tight tracking-tighter text-2xl sm:text-3xl md:text-2xl">
                 Fitness Gym App
               </h2>
-              <p className="flex sm:flex md:hidden text-xl">2017 - 2018</p>
+              {/* <p className="flex sm:flex md:hidden text-xl">2017 - 2018</p> */}
               <p className="flex max-w-[340px] text-lg text-muted-foreground mb-3">
-                Almac is a SEO company, but my work is creating Amazon-affliated
-                niche websites. These websites are especially created to earn
-                money then sold to website flippers.
+                In an effort to create a system that would be beneficial and
+                profitable in our local community, I created a fitness gym app
+                designed to help gym owners manage their business well and for
+                their users to be able to maximize their membership benefits.
+                This is an app that is ready for franchise business.
               </p>
               <Badge className="mr-1 bg-gray-700 dark:bg-gray-200 text-white dark:text-gray-700">
-                Wordpress
+                Quasar
+              </Badge>
+              <Badge className="mr-1 bg-gray-700 dark:bg-gray-200 text-white dark:text-gray-700">
+                VueJs
+              </Badge>
+              <Badge className="mr-1 bg-gray-700 dark:bg-gray-200 text-white dark:text-gray-700">
+                Laravel
               </Badge>
               <Badge className="mr-1 bg-gray-700 dark:bg-gray-200 text-white dark:text-gray-700">
                 PHP
               </Badge>
               <Badge className="mr-1 bg-gray-700 dark:bg-gray-200 text-white dark:text-gray-700">
                 Javascript
-              </Badge>
-              <Badge className="mr-1 bg-gray-700 dark:bg-gray-200 text-white dark:text-gray-700">
-                CSS
-              </Badge>
-              <Badge className="mr-1 bg-gray-700 dark:bg-gray-200 text-white dark:text-gray-700">
-                E-Commerce
               </Badge>
             </div>
           </div>
@@ -154,14 +155,18 @@ export default function Projects() {
               <h2 className="font-extrabold leading-tight tracking-tighter text-2xl sm:text-3xl md:text-2xl">
                 School Information Management System (Version 1)
               </h2>
-              <p className="flex sm:flex md:hidden text-xl">2014 - 2017</p>
+              {/* <p className="flex sm:flex md:hidden text-xl">2014 - 2017</p> */}
               <p className="flex max-w-[340px] text-lg text-muted-foreground mb-3">
-                A company of well-known Australian photographers and coaches. I
-                developed and managed their websites, keeping the websites up to
-                date.
+                I used full-stack Laravel in creating this system which is
+                solely for Basic Education Schools. After a few months I made
+                the Version 2 of this using back-end Laravel. The latter is
+                suitable for primary up to tertiary education.
               </p>
               <Badge className="mr-1 bg-gray-700 dark:bg-gray-200 text-white dark:text-gray-700">
-                Wordpress
+                JQuery
+              </Badge>
+              <Badge className="mr-1 bg-gray-700 dark:bg-gray-200 text-white dark:text-gray-700">
+                Laravel
               </Badge>
               <Badge className="mr-1 bg-gray-700 dark:bg-gray-200 text-white dark:text-gray-700">
                 PHP
@@ -169,11 +174,40 @@ export default function Projects() {
               <Badge className="mr-1 bg-gray-700 dark:bg-gray-200 text-white dark:text-gray-700">
                 Javascript
               </Badge>
+            </div>
+          </div>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 sm:grid-cols-1 max-w-[980px] m-auto py-10 border-b">
+          <div className="hidden sm:hidden md:flex flex-col max-w-[980px] md:m-auto items-start gap-2">
+            <h2 className="font-extrabold leading-tight tracking-tighter md:text-3xl">
+              <Image src={WebDeb} alt="web dev" />
+            </h2>
+          </div>
+          <div className="flex max-w-[980px] flex-col items-start gap-2">
+            <div className="ml-10">
+              <h2 className="font-extrabold leading-tight tracking-tighter text-2xl sm:text-3xl md:text-2xl">
+                Learning Management System
+              </h2>
+              {/* <p className="flex sm:flex md:hidden text-xl">2014 - 2017</p> */}
+              <p className="flex max-w-[340px] text-lg text-muted-foreground mb-3">
+                Using the Moodle platform, I have created this system with the
+                goal to help people who need a training platform and the like.
+                During the pandemic when most schools turned to the internet to
+                continue their programs, our clients have used this as their
+                tool for making online classes possible.
+              </p>
+              <Badge className="mr-1 bg-gray-700 dark:bg-gray-200 text-white dark:text-gray-700">
+                Moodle
+              </Badge>
               <Badge className="mr-1 bg-gray-700 dark:bg-gray-200 text-white dark:text-gray-700">
                 CSS
               </Badge>
               <Badge className="mr-1 bg-gray-700 dark:bg-gray-200 text-white dark:text-gray-700">
-                E-Commerce
+                PHP
+              </Badge>
+              <Badge className="mr-1 bg-gray-700 dark:bg-gray-200 text-white dark:text-gray-700">
+                Javascript
               </Badge>
             </div>
           </div>
@@ -190,26 +224,23 @@ export default function Projects() {
               <h2 className="font-extrabold leading-tight tracking-tighter text-2xl sm:text-3xl md:text-2xl">
                 Nehemiah HelpDesk
               </h2>
-              <p className="flex sm:flex md:hidden text-xl">2014 - 2017</p>
+              {/* <p className="flex sm:flex md:hidden text-xl">2014 - 2017</p> */}
               <p className="flex max-w-[340px] text-lg text-muted-foreground mb-3">
-                A company of well-known Australian photographers and coaches. I
-                developed and managed their websites, keeping the websites up to
-                date.
+                This a a practice project I created using React JS. This is to
+                provide an online support for the clients of Nehemiah Solutions
+                Inc.
               </p>
               <Badge className="mr-1 bg-gray-700 dark:bg-gray-200 text-white dark:text-gray-700">
-                Wordpress
+                React
               </Badge>
               <Badge className="mr-1 bg-gray-700 dark:bg-gray-200 text-white dark:text-gray-700">
-                PHP
+                Laravel
               </Badge>
               <Badge className="mr-1 bg-gray-700 dark:bg-gray-200 text-white dark:text-gray-700">
                 Javascript
               </Badge>
               <Badge className="mr-1 bg-gray-700 dark:bg-gray-200 text-white dark:text-gray-700">
-                CSS
-              </Badge>
-              <Badge className="mr-1 bg-gray-700 dark:bg-gray-200 text-white dark:text-gray-700">
-                E-Commerce
+                PHP
               </Badge>
             </div>
           </div>
@@ -219,9 +250,8 @@ export default function Projects() {
         <div className="grid grid-cols-1 md:grid-cols-2 sm:grid-cols-1 max-w-[980px] m-auto p-5">
           <div>
             <p className="text-sm">
-              Loosely designed in Figma and coded in Visual Studio Code by yours
-              truly. Built with Next.js and Tailwind CSS, deployed with Vercel.
-              All text is set in the Inter typeface.
+              Designed with the use of PSD and coded in Visual Studio Code.
+              Built with Next.js and Tailwind CSS, and deployed with Vercel.
             </p>
           </div>
 
@@ -242,7 +272,7 @@ export default function Projects() {
               </div>
             </Link>
             <Link
-              href={siteConfig.links.twitter}
+              href={siteConfig.links.linkin}
               target="_blank"
               rel="noreferrer"
             >
@@ -253,7 +283,7 @@ export default function Projects() {
                 })}
               >
                 <Icons.linkedin className="h-6 w-6 fill-current" />
-                <span className="sr-only">Twitter</span>
+                <span className="sr-only">Linkin</span>
               </div>
             </Link>
           </div>
