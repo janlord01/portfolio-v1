@@ -85,7 +85,7 @@ export function SiteHeader() {
 
                 {/* &nbsp;&nbsp; */}
                 <Link
-                  href={siteConfig.links.docs}
+                  href={"mailto:janlord.luga@gmail.com"}
                   target="_blank"
                   rel="noreferrer"
                   className={buttonVariants()}

@@ -47,7 +47,7 @@ export default function IndexPage() {
             </p>
             <div className="flex gap-4 mt-5">
               <Link
-                href={siteConfig.links.docs}
+                href={"mailto:janlord.luga@gmail.com"}
                 target="_blank"
                 rel="noreferrer"
                 className={buttonVariants()}

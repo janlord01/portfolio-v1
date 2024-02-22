@@ -1,7 +1,13 @@
 import React from "react"
 import Image from "next/image"
 import Link from "next/link"
+import lms from "public/LMS.png"
+import gym from "public/fitness-gym-app.png"
+import ink from "public/ink&shears.png"
 import WebDeb from "public/jl-web-icons_web-dev.png"
+import relate from "public/relate.png"
+import sims_v1 from "public/sims-v1.png"
+import sims_v2 from "public/sims-v2.png"
 
 import { siteConfig } from "@/config/site"
 import { Badge } from "@/components/ui/badge"
@@ -21,7 +27,57 @@ export default function Projects() {
         <div className="grid grid-cols-1 md:grid-cols-2 sm:grid-cols-1 max-w-[980px] m-auto py-10 border-b">
           <div className="hidden sm:hidden md:flex flex-col max-w-[980px] md:m-auto items-start gap-2">
             <h2 className="font-extrabold leading-tight tracking-tighter md:text-3xl">
-              <Image src={WebDeb} alt="web dev" />
+              <Image
+                src={ink}
+                alt="web dev"
+                width={450}
+                className="shadow-md"
+              />
+            </h2>
+          </div>
+          <div className="flex max-w-[980px] flex-col items-start gap-2">
+            <div className="ml-10">
+              <h2 className="font-extrabold leading-tight tracking-tighter text-2xl sm:text-3xl md:text-2xl">
+                Barbershop & Tattooshop Business Management System
+              </h2>
+              {/* <p className="flex sm:flex md:hidden text-xl">2021 - Present</p> */}
+              <p className="flex max-w-[340px] text-lg text-muted-foreground mb-3">
+                This is a system I have created for primary, secondary and
+                tertiary schools for them to be able to manage their business
+                well. The system can be used by administrators, teachers,
+                faculty and staff, students and their parents.
+              </p>
+              <Badge className="mr-1 bg-gray-700 dark:bg-gray-200 text-white dark:text-gray-700">
+                Quasar
+              </Badge>
+              <Badge className="mr-1 bg-gray-700 dark:bg-gray-200 text-white dark:text-gray-700">
+                VueJs
+              </Badge>
+              <Badge className="mr-1 bg-gray-700 dark:bg-gray-200 text-white dark:text-gray-700">
+                Pinia
+              </Badge>
+              <Badge className="mr-1 bg-gray-700 dark:bg-gray-200 text-white dark:text-gray-700">
+                Laravel
+              </Badge>
+              <Badge className="mr-1 bg-gray-700 dark:bg-gray-200 text-white dark:text-gray-700">
+                PHP
+              </Badge>
+              <Badge className="mr-1 bg-gray-700 dark:bg-gray-200 text-white dark:text-gray-700">
+                Javascript
+              </Badge>
+            </div>
+          </div>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 sm:grid-cols-1 max-w-[980px] m-auto py-10 border-b">
+          <div className="hidden sm:hidden md:flex flex-col max-w-[980px] md:m-auto items-start gap-2">
+            <h2 className="font-extrabold leading-tight tracking-tighter md:text-3xl">
+              <Image
+                src={sims_v2}
+                alt="web dev"
+                width={450}
+                className="shadow-md"
+              />
             </h2>
           </div>
           <div className="flex max-w-[980px] flex-col items-start gap-2">
@@ -43,10 +99,7 @@ export default function Projects() {
                 VueJs
               </Badge>
               <Badge className="mr-1 bg-gray-700 dark:bg-gray-200 text-white dark:text-gray-700">
-                React
-              </Badge>
-              <Badge className="mr-1 bg-gray-700 dark:bg-gray-200 text-white dark:text-gray-700">
-                NextJs
+                Vuex
               </Badge>
               <Badge className="mr-1 bg-gray-700 dark:bg-gray-200 text-white dark:text-gray-700">
                 Laravel
@@ -57,15 +110,6 @@ export default function Projects() {
               <Badge className="mr-1 bg-gray-700 dark:bg-gray-200 text-white dark:text-gray-700">
                 Javascript
               </Badge>
-              <Badge className="mr-1 bg-gray-700 dark:bg-gray-200 text-white dark:text-gray-700">
-                Typescript
-              </Badge>
-              <Badge className="mr-1 bg-gray-700 dark:bg-gray-200 text-white dark:text-gray-700">
-                Wordpress
-              </Badge>
-              <Badge className="mr-1 bg-gray-700 dark:bg-gray-200 text-white dark:text-gray-700">
-                Moodle
-              </Badge>
             </div>
           </div>
         </div>
@@ -73,13 +117,18 @@ export default function Projects() {
         <div className="grid grid-cols-1 md:grid-cols-2 sm:grid-cols-1 max-w-[980px] m-auto py-10 border-b">
           <div className="hidden sm:hidden md:flex flex-col max-w-[980px] md:m-auto items-start gap-2">
             <h2 className="font-extrabold leading-tight tracking-tighter md:text-3xl">
-              <Image src={WebDeb} alt="web dev" />
+              <Image
+                src={relate}
+                alt="web dev"
+                width={450}
+                className="shadow-md"
+              />
             </h2>
           </div>
           <div className="flex max-w-[980px] flex-col items-start gap-2">
             <div className="ml-10">
               <h2 className="font-extrabold leading-tight tracking-tighter text-2xl sm:text-3xl md:text-2xl">
-                Employee Meeting App
+                Peer-to-peer Meeting App
               </h2>
               {/* <p className="flex sm:flex md:hidden text-xl">2018 - Present</p> */}
               <p className="flex max-w-[340px] text-lg text-muted-foreground mb-3">
@@ -109,7 +158,12 @@ export default function Projects() {
         <div className="grid grid-cols-1 md:grid-cols-2 sm:grid-cols-1 max-w-[980px] m-auto py-10 border-b">
           <div className="hidden sm:hidden md:flex flex-col max-w-[980px] md:m-auto items-start gap-2">
             <h2 className="font-extrabold leading-tight tracking-tighter md:text-3xl">
-              <Image src={WebDeb} alt="web dev" />
+              <Image
+                src={gym}
+                alt="web dev"
+                width={450}
+                className="shadow-md"
+              />
             </h2>
           </div>
           <div className="flex max-w-[980px] flex-col items-start gap-2">
@@ -147,7 +201,12 @@ export default function Projects() {
         <div className="grid grid-cols-1 md:grid-cols-2 sm:grid-cols-1 max-w-[980px] m-auto py-10 border-b">
           <div className="hidden sm:hidden md:flex flex-col max-w-[980px] md:m-auto items-start gap-2">
             <h2 className="font-extrabold leading-tight tracking-tighter md:text-3xl">
-              <Image src={WebDeb} alt="web dev" />
+              <Image
+                src={sims_v1}
+                alt="web dev"
+                width={450}
+                className="shadow-md"
+              />
             </h2>
           </div>
           <div className="flex max-w-[980px] flex-col items-start gap-2">
@@ -181,7 +240,12 @@ export default function Projects() {
         <div className="grid grid-cols-1 md:grid-cols-2 sm:grid-cols-1 max-w-[980px] m-auto py-10 border-b">
           <div className="hidden sm:hidden md:flex flex-col max-w-[980px] md:m-auto items-start gap-2">
             <h2 className="font-extrabold leading-tight tracking-tighter md:text-3xl">
-              <Image src={WebDeb} alt="web dev" />
+              <Image
+                src={lms}
+                alt="web dev"
+                width={450}
+                className="shadow-md"
+              />
             </h2>
           </div>
           <div className="flex max-w-[980px] flex-col items-start gap-2">
@@ -213,7 +277,7 @@ export default function Projects() {
           </div>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 sm:grid-cols-1 max-w-[980px] m-auto py-10 border-b">
+        {/* <div className="grid grid-cols-1 md:grid-cols-2 sm:grid-cols-1 max-w-[980px] m-auto py-10 border-b">
           <div className="hidden sm:hidden md:flex flex-col max-w-[980px] md:m-auto items-start gap-2">
             <h2 className="font-extrabold leading-tight tracking-tighter md:text-3xl">
               <Image src={WebDeb} alt="web dev" />
@@ -224,7 +288,6 @@ export default function Projects() {
               <h2 className="font-extrabold leading-tight tracking-tighter text-2xl sm:text-3xl md:text-2xl">
                 Nehemiah HelpDesk
               </h2>
-              {/* <p className="flex sm:flex md:hidden text-xl">2014 - 2017</p> */}
               <p className="flex max-w-[340px] text-lg text-muted-foreground mb-3">
                 This a a practice project I created using React JS. This is to
                 provide an online support for the clients of Nehemiah Solutions
@@ -244,7 +307,7 @@ export default function Projects() {
               </Badge>
             </div>
           </div>
-        </div>
+        </div> */}
       </section>
       <footer className="bg-slate-100 dark:bg-slate-950">
         <div className="grid grid-cols-1 md:grid-cols-2 sm:grid-cols-1 max-w-[980px] m-auto p-5">
