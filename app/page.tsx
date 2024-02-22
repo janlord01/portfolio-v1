@@ -59,7 +59,7 @@ export default function IndexPage() {
               rel="noreferrer"
               href={siteConfig.links.github}
               className={buttonVariants({ variant: "outline" })}
-            >
+            >asdasdasdasd
               GitHub
             </Link> */}
             </div>
