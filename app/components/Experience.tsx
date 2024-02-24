@@ -19,12 +19,12 @@ export default function Experience() {
             </h2>
           </div>
           <div className="flex max-w-[980px] flex-col items-start gap-2">
-            <div className="ml-10">
+            <div className="ml-5 md:ml-10 px-5 md:px-0">
               <h2 className="font-extrabold leading-tight tracking-tighter text-2xl sm:text-3xl md:text-2xl">
                 Nehemiah Solutions Inc.
               </h2>
               <p className="flex sm:flex md:hidden text-xl">2021 - Present</p>
-              <p className="flex max-w-[340px] text-lg text-muted-foreground mb-3">
+              <p className="flex max-w-[400px] text-lg text-muted-foreground mb-3">
                 Nehemiah creates and develops dynamic websites, automation
                 systems, and does consultation for businesses and leading global
                 brands.
@@ -70,12 +70,12 @@ export default function Experience() {
             </h2>
           </div>
           <div className="flex max-w-[980px] flex-col items-start gap-2">
-            <div className="ml-10">
+            <div className="ml-5 md:ml-10 px-5 md:px-0">
               <h2 className="font-extrabold leading-tight tracking-tighter text-2xl sm:text-3xl md:text-2xl">
                 Groom & Brew Mfg
               </h2>
               <p className="flex sm:flex md:hidden text-xl">2018 - Present</p>
-              <p className="flex max-w-[340px] text-lg text-muted-foreground mb-3">
+              <p className="flex max-w-[400px] text-lg text-muted-foreground mb-3">
                 In 2018, I stopped working as a programmer and started my own
                 business called Groom & Brew MFG. My business focuses on
                 creating men’s grooming like hair/beard growers, hair pomades,
@@ -116,12 +116,12 @@ export default function Experience() {
             </h2>
           </div>
           <div className="flex max-w-[980px] flex-col items-start gap-2">
-            <div className="ml-10">
+            <div className="ml-5 md:ml-10 px-5 md:px-0">
               <h2 className="font-extrabold leading-tight tracking-tighter text-2xl sm:text-3xl md:text-2xl">
                 Almac Media LTD
               </h2>
               <p className="flex sm:flex md:hidden text-xl">2017 - 2018</p>
-              <p className="flex max-w-[340px] text-lg text-muted-foreground mb-3">
+              <p className="flex max-w-[400px] text-lg text-muted-foreground mb-3">
                 I worked for a year in Almac which is a SEO company. My job was
                 to create Amazon-affiliated niche websites. These websites are
                 especially created to earn money so it can be sold to empire
@@ -153,12 +153,12 @@ export default function Experience() {
             </h2>
           </div>
           <div className="flex max-w-[980px] flex-col items-start gap-2">
-            <div className="ml-10">
+            <div className="ml-5 md:ml-10 px-5 md:px-0">
               <h2 className="font-extrabold leading-tight tracking-tighter text-2xl sm:text-3xl md:text-2xl">
                 Share Inspire Create
               </h2>
               <p className="flex sm:flex md:hidden text-xl">2014 - 2017</p>
-              <p className="flex max-w-[340px] text-lg text-muted-foreground mb-3">
+              <p className="flex max-w-[400px] text-lg text-muted-foreground mb-3">
                 Share Inspire Create is a company owned by well-known Australian
                 photographers and coaches. I developed and managed their
                 websites, keeping the websites up to date.

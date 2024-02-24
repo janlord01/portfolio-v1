@@ -17,7 +17,7 @@ export default function IndexPage() {
         className="w-full sm:pt-0 md:pt-48 bg-slate-100 dark:bg-slate-950 items-center border-b border-gray-200 dark:border-gray-800"
       >
         <div className="mt-20 flex max-w-[980px] flex-col items-start gap-2 sm:block md:hidden">
-          <div className="ml-10">
+          <div className="ml-5 md:ml-10 ">
             <Image
               src={janlord}
               alt="janlord"
@@ -36,14 +36,12 @@ export default function IndexPage() {
               Hey there, I&#39;m Janlord!
             </h1>
             <p className="sm:hidden md:flex hidden max-w-[700px] text-lg text-muted-foreground">
-              I&#39;m a fullstack developer from the Philippines. I also own a
-              small manufacturing business providing cosmetics for both men and
-              women.
+              I&#39;m a fullstack developer from the Philippines. I build fun
+              and efficient systems.
             </p>
             <p className="sm:flex md:hidden flex max-w-[700px] text-lg text-muted-foreground">
-              I&#39;m a fullstack developer from the Philippines. I also own a
-              small manufacturing business <br />
-              providing cosmetics for both men and women.
+              I&#39;m a fullstack developer from the Philippines. I build fun
+              and efficient systems.
             </p>
             <div className="flex gap-4 mt-5">
               <Link
@@ -65,7 +63,7 @@ export default function IndexPage() {
             </div>
           </div>
           <div className="hidden sm:hidden md:flex max-w-[980px] flex-col items-start gap-2">
-            <div className="ml-10">
+            <div className="ml-5 md:ml-10">
               <Image
                 src={janlord}
                 alt="janlord"

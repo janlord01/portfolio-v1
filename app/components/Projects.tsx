@@ -34,14 +34,33 @@ export default function Projects() {
                 className="shadow-md"
               />
             </h2>
+            <div className="inline-grid grid-cols-3 gap-2 mt-3 text-center">
+              <Link
+                href="#"
+                target="_blank"
+                rel="noreferrer"
+                className={buttonVariants({ variant: "gray", size: "sm" })}
+              >
+                Link
+              </Link>
+              <Link
+                href="#"
+                target="_blank"
+                rel="noreferrer"
+                className={buttonVariants({ variant: "gray", size: "sm" })}
+              >
+                Demo
+              </Link>
+            </div>
           </div>
           <div className="flex max-w-[980px] flex-col items-start gap-2">
-            <div className="ml-10">
+            <div className="ml-5 md:ml-10 px-5 md:px-0">
               <h2 className="font-extrabold leading-tight tracking-tighter text-2xl sm:text-3xl md:text-2xl">
                 Barbershop & Tattooshop Business Management System
               </h2>
+
               {/* <p className="flex sm:flex md:hidden text-xl">2021 - Present</p> */}
-              <p className="flex max-w-[340px] text-lg text-muted-foreground mb-3">
+              <p className="flex max-w-[400px] text-lg text-muted-foreground mb-3">
                 This is a system I have created for primary, secondary and
                 tertiary schools for them to be able to manage their business
                 well. The system can be used by administrators, teachers,
@@ -79,14 +98,32 @@ export default function Projects() {
                 className="shadow-md"
               />
             </h2>
+            <div className="inline-grid grid-cols-3 gap-2 mt-3 text-center">
+              <Link
+                href="#"
+                target="_blank"
+                rel="noreferrer"
+                className={buttonVariants({ variant: "gray", size: "sm" })}
+              >
+                Link
+              </Link>
+              <Link
+                href="#"
+                target="_blank"
+                className={buttonVariants({ variant: "gray", size: "sm" })}
+                rel="noreferrer"
+              >
+                Demo
+              </Link>
+            </div>
           </div>
           <div className="flex max-w-[980px] flex-col items-start gap-2">
-            <div className="ml-10">
+            <div className="ml-5 md:ml-10 px-5 md:px-0">
               <h2 className="font-extrabold leading-tight tracking-tighter text-2xl sm:text-3xl md:text-2xl">
                 School Information Management System (Version 2)
               </h2>
               {/* <p className="flex sm:flex md:hidden text-xl">2021 - Present</p> */}
-              <p className="flex max-w-[340px] text-lg text-muted-foreground mb-3">
+              <p className="flex max-w-[400px] text-lg text-muted-foreground mb-3">
                 This is a system I have created for primary, secondary and
                 tertiary schools for them to be able to manage their business
                 well. The system can be used by administrators, teachers,
@@ -124,17 +161,35 @@ export default function Projects() {
                 className="shadow-md"
               />
             </h2>
+            <div className="inline-grid grid-cols-3 gap-2 mt-3 text-center">
+              <Link
+                href="#"
+                target="_blank"
+                rel="noreferrer"
+                className={buttonVariants({ variant: "gray", size: "sm" })}
+              >
+                Link
+              </Link>
+              <Link
+                href="#"
+                target="_blank"
+                className={buttonVariants({ variant: "gray", size: "sm" })}
+                rel="noreferrer"
+              >
+                Demo
+              </Link>
+            </div>
           </div>
           <div className="flex max-w-[980px] flex-col items-start gap-2">
-            <div className="ml-10">
+            <div className="ml-5 md:ml-10 px-5 md:px-0">
               <h2 className="font-extrabold leading-tight tracking-tighter text-2xl sm:text-3xl md:text-2xl">
                 Peer-to-peer Meeting App
               </h2>
               {/* <p className="flex sm:flex md:hidden text-xl">2018 - Present</p> */}
-              <p className="flex max-w-[340px] text-lg text-muted-foreground mb-3">
+              <p className="flex max-w-[400px] text-lg text-muted-foreground mb-3">
                 In 2022, I had a client who requested the making of an Employee
                 Meeting App so they can efficiently communicate with their
-                employees without needing to use other alternatives.
+                employees.
               </p>
               <Badge className="mr-1 bg-gray-700 dark:bg-gray-200 text-white dark:text-gray-700">
                 Quasar
@@ -165,14 +220,32 @@ export default function Projects() {
                 className="shadow-md"
               />
             </h2>
+            <div className="inline-grid grid-cols-3 gap-2 mt-3 text-center">
+              <Link
+                href="#"
+                target="_blank"
+                rel="noreferrer"
+                className={buttonVariants({ variant: "gray", size: "sm" })}
+              >
+                Link
+              </Link>
+              <Link
+                href="#"
+                target="_blank"
+                className={buttonVariants({ variant: "gray", size: "sm" })}
+                rel="noreferrer"
+              >
+                Demo
+              </Link>
+            </div>
           </div>
           <div className="flex max-w-[980px] flex-col items-start gap-2">
-            <div className="ml-10">
+            <div className="ml-5 md:ml-10 px-5 md:px-0">
               <h2 className="font-extrabold leading-tight tracking-tighter text-2xl sm:text-3xl md:text-2xl">
                 Fitness Gym App
               </h2>
               {/* <p className="flex sm:flex md:hidden text-xl">2017 - 2018</p> */}
-              <p className="flex max-w-[340px] text-lg text-muted-foreground mb-3">
+              <p className="flex max-w-[400px] text-lg text-muted-foreground mb-3">
                 In an effort to create a system that would be beneficial and
                 profitable in our local community, I created a fitness gym app
                 designed to help gym owners manage their business well and for
@@ -208,14 +281,32 @@ export default function Projects() {
                 className="shadow-md"
               />
             </h2>
+            <div className="inline-grid grid-cols-3 gap-2 mt-3 text-center">
+              <Link
+                href="#"
+                target="_blank"
+                rel="noreferrer"
+                className={buttonVariants({ variant: "gray", size: "sm" })}
+              >
+                Link
+              </Link>
+              <Link
+                href="#"
+                target="_blank"
+                className={buttonVariants({ variant: "gray", size: "sm" })}
+                rel="noreferrer"
+              >
+                Demo
+              </Link>
+            </div>
           </div>
           <div className="flex max-w-[980px] flex-col items-start gap-2">
-            <div className="ml-10">
+            <div className="ml-5 md:ml-10 px-5 md:px-0">
               <h2 className="font-extrabold leading-tight tracking-tighter text-2xl sm:text-3xl md:text-2xl">
                 School Information Management System (Version 1)
               </h2>
               {/* <p className="flex sm:flex md:hidden text-xl">2014 - 2017</p> */}
-              <p className="flex max-w-[340px] text-lg text-muted-foreground mb-3">
+              <p className="flex max-w-[400px] text-lg text-muted-foreground mb-3">
                 I used full-stack Laravel in creating this system which is
                 solely for Basic Education Schools. After a few months I made
                 the Version 2 of this using back-end Laravel. The latter is
@@ -247,14 +338,32 @@ export default function Projects() {
                 className="shadow-md"
               />
             </h2>
+            <div className="inline-grid grid-cols-3 gap-2 mt-3 text-center">
+              <Link
+                href="#"
+                target="_blank"
+                rel="noreferrer"
+                className={buttonVariants({ variant: "gray", size: "sm" })}
+              >
+                Link
+              </Link>
+              {/* <Link
+                href="#"
+                target="_blank"
+                className={buttonVariants({ variant: "gray", size: "sm" })}
+                rel="noreferrer"
+              >
+                Demo
+              </Link> */}
+            </div>
           </div>
           <div className="flex max-w-[980px] flex-col items-start gap-2">
-            <div className="ml-10">
+            <div className="ml-5 md:ml-10 px-5 md:px-0">
               <h2 className="font-extrabold leading-tight tracking-tighter text-2xl sm:text-3xl md:text-2xl">
                 Learning Management System
               </h2>
               {/* <p className="flex sm:flex md:hidden text-xl">2014 - 2017</p> */}
-              <p className="flex max-w-[340px] text-lg text-muted-foreground mb-3">
+              <p className="flex max-w-[400px] text-lg text-muted-foreground mb-3">
                 Using the Moodle platform, I have created this system with the
                 goal to help people who need a training platform and the like.
                 During the pandemic when most schools turned to the internet to
@@ -284,11 +393,11 @@ export default function Projects() {
             </h2>
           </div>
           <div className="flex max-w-[980px] flex-col items-start gap-2">
-            <div className="ml-10">
+            <div className="ml-5 md:ml-10 px-5 md:px-0">
               <h2 className="font-extrabold leading-tight tracking-tighter text-2xl sm:text-3xl md:text-2xl">
                 Nehemiah HelpDesk
               </h2>
-              <p className="flex max-w-[340px] text-lg text-muted-foreground mb-3">
+              <p className="flex max-w-[400px] text-lg text-muted-foreground mb-3">
                 This a a practice project I created using React JS. This is to
                 provide an online support for the clients of Nehemiah Solutions
                 Inc.
