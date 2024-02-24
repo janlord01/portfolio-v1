@@ -36,21 +36,21 @@ export default function Projects() {
             </h2>
             <div className="inline-grid grid-cols-3 gap-2 mt-3 text-center">
               <Link
-                href="#"
+                href="https://app.inkshears.com/"
                 target="_blank"
                 rel="noreferrer"
                 className={buttonVariants({ variant: "gray", size: "sm" })}
               >
                 Link
               </Link>
-              <Link
+              {/* <Link
                 href="#"
                 target="_blank"
                 rel="noreferrer"
                 className={buttonVariants({ variant: "gray", size: "sm" })}
               >
                 Demo
-              </Link>
+              </Link> */}
             </div>
           </div>
           <div className="flex max-w-[980px] flex-col items-start gap-2">
@@ -61,10 +61,10 @@ export default function Projects() {
 
               {/* <p className="flex sm:flex md:hidden text-xl">2021 - Present</p> */}
               <p className="flex max-w-[400px] text-lg text-muted-foreground mb-3">
-                This is a system I have created for primary, secondary and
-                tertiary schools for them to be able to manage their business
-                well. The system can be used by administrators, teachers,
-                faculty and staff, students and their parents.
+                I’ve created a system for barbershop and tattoo shops where they
+                can book an appointment online, track their inventory, manage
+                their schedules and also have summary reports on their cash
+                inflows and outflows.
               </p>
               <Badge className="mr-1 bg-gray-700 dark:bg-gray-200 text-white dark:text-gray-700">
                 Quasar
@@ -100,21 +100,21 @@ export default function Projects() {
             </h2>
             <div className="inline-grid grid-cols-3 gap-2 mt-3 text-center">
               <Link
-                href="#"
+                href="https://system.nema-edu.com/"
                 target="_blank"
                 rel="noreferrer"
                 className={buttonVariants({ variant: "gray", size: "sm" })}
               >
                 Link
               </Link>
-              <Link
+              {/* <Link
                 href="#"
                 target="_blank"
                 className={buttonVariants({ variant: "gray", size: "sm" })}
                 rel="noreferrer"
               >
                 Demo
-              </Link>
+              </Link> */}
             </div>
           </div>
           <div className="flex max-w-[980px] flex-col items-start gap-2">
@@ -163,21 +163,21 @@ export default function Projects() {
             </h2>
             <div className="inline-grid grid-cols-3 gap-2 mt-3 text-center">
               <Link
-                href="#"
+                href="https://dans196.sg-host.com/"
                 target="_blank"
                 rel="noreferrer"
                 className={buttonVariants({ variant: "gray", size: "sm" })}
               >
                 Link
               </Link>
-              <Link
+              {/* <Link
                 href="#"
                 target="_blank"
                 className={buttonVariants({ variant: "gray", size: "sm" })}
                 rel="noreferrer"
               >
                 Demo
-              </Link>
+              </Link> */}
             </div>
           </div>
           <div className="flex max-w-[980px] flex-col items-start gap-2">
@@ -222,21 +222,21 @@ export default function Projects() {
             </h2>
             <div className="inline-grid grid-cols-3 gap-2 mt-3 text-center">
               <Link
-                href="#"
+                href="https://pos.beefitgym.com/"
                 target="_blank"
                 rel="noreferrer"
                 className={buttonVariants({ variant: "gray", size: "sm" })}
               >
                 Link
               </Link>
-              <Link
+              {/* <Link
                 href="#"
                 target="_blank"
                 className={buttonVariants({ variant: "gray", size: "sm" })}
                 rel="noreferrer"
               >
                 Demo
-              </Link>
+              </Link> */}
             </div>
           </div>
           <div className="flex max-w-[980px] flex-col items-start gap-2">
@@ -283,21 +283,21 @@ export default function Projects() {
             </h2>
             <div className="inline-grid grid-cols-3 gap-2 mt-3 text-center">
               <Link
-                href="#"
+                href="https://sims.newilangachieversacademy.com/"
                 target="_blank"
                 rel="noreferrer"
                 className={buttonVariants({ variant: "gray", size: "sm" })}
               >
                 Link
               </Link>
-              <Link
+              {/* <Link
                 href="#"
                 target="_blank"
                 className={buttonVariants({ variant: "gray", size: "sm" })}
                 rel="noreferrer"
               >
                 Demo
-              </Link>
+              </Link> */}
             </div>
           </div>
           <div className="flex max-w-[980px] flex-col items-start gap-2">
@@ -340,21 +340,13 @@ export default function Projects() {
             </h2>
             <div className="inline-grid grid-cols-3 gap-2 mt-3 text-center">
               <Link
-                href="#"
+                href="https://app.thenewfieldstemschooldavao.com/"
                 target="_blank"
                 rel="noreferrer"
                 className={buttonVariants({ variant: "gray", size: "sm" })}
               >
                 Link
               </Link>
-              {/* <Link
-                href="#"
-                target="_blank"
-                className={buttonVariants({ variant: "gray", size: "sm" })}
-                rel="noreferrer"
-              >
-                Demo
-              </Link> */}
             </div>
           </div>
           <div className="flex max-w-[980px] flex-col items-start gap-2">
@@ -427,7 +419,7 @@ export default function Projects() {
             </p>
           </div>
 
-          <div className="w-full text-right">
+          {/* <div className="w-full text-right">
             <Link
               href={siteConfig.links.github}
               target="_blank"
@@ -458,7 +450,7 @@ export default function Projects() {
                 <span className="sr-only">Linkin</span>
               </div>
             </Link>
-          </div>
+          </div> */}
         </div>
       </footer>
     </div>
